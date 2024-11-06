@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: linear-gradient(20deg, blue, green, yellow, crimson)
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        let a = "u";
+        {
+            let a = "u6";
+            console.log(a);
+        }
+        console.log(a);
+
+        // dont use var try to use let most of the time.
+
+        const b = "this cannot be changed";
+        console.log(b);
+
+
+        // lets take another dive. so far we have learned var, const and let. But we wil make maximum use of let in our coding.
+
+        let age = 34;
+        if (age <= 20) {
+            console.log("You can watch a movie");
+        }
+
+        else if (age == 33) {
+            console.log("You can watch tiktok");
+        }
+
+        else if (age == 34) {
+            console.log("You are 34 only");
+        }
+
+        else {
+            console.log("You can not go to watch movie");
+        }
+
+
+
+        // SWitch case statements.(This works same like as conditional statements)
+
+
+
+
+        const cups = 22;
+        switch (cups) {
+            case 20:
+                console.log("The value of cups is 20")
+                break;
+            case 21:
+                console.log("The value of cups is 21")
+                break;
+            case 22:
+                console.log("The value of cups is 22 ")
+                break;
+
+
+            default:
+                console.log("The value of cups is none of 20, 21, 22")
+                break;
+        }
+
+
+            
+
+    </script>
+</body>
+
+</html>
